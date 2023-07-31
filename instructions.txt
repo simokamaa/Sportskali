@@ -1,0 +1,17 @@
+Main Branch for Android/ios  sportskali
+Main Branch for app          API
+
+To set app android/ios
+Set expo environment by running npx create-expo-app App
+Inside folder created by expo in our project i will have another folder called App
+This is where everything is included,,,all our project files
+Remember to include assests folder in the App/App folder
+
+To set up Website install angular CLI globally by following command npm install -g @angular/cli
+Set up front endd environment by running ng new frontend
+install mock backend json server for API request/responses by running npm install -g json-server
+There is a json file create for mock data db.json
+Start Mock Backend server by running json-server --watch db.json
+Start Angular server by running ng server
+
+To setup backend set up laravel project in normal way
