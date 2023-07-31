@@ -17,3 +17,4 @@ Push to the branch(git push origin feature)
 
 Create a pull request <makesure your code is propery commented> if you find a bug, kidly open an issue Here.
 
+for further guidelines click Here
