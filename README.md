@@ -32,5 +32,5 @@ follow the normal Angular set up method then run <<npm install -g json-server>> 
 start the json server using   <<json-server --watch db.json>>
 
 For backend laravel API setup Laravel in normal way
-i will give further guidelines or https://github.com/simokamaa/Sportskali.wiki.git
+i will give further guidelines.Tap on Wiki in your headers
  
