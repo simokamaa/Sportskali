@@ -1,7 +1,9 @@
+import React from 'react'
 
-
-function WelcomeScreen(){
-    return <div>Hello Word</div>
+const WelcomeScreen = () => {
+  return (
+    <div>WelcomeScreen</div>
+  )
 }
 
 export default WelcomeScreen
