@@ -1,10 +1,16 @@
 import React from 'react'
-import { View , Text} from 'react-native'
+import { SafeAreaView , Text, StyleSheet, Platform, StatusBar} from 'react-native'
 
-export const Screen = () => {
+export const Screen = ({children}) => {
   return (
-    <View>
-    <Text>Hello Screen</Text>
-    </View>
+    <SafeAreaView style={StyleSheet.screen}>
+    {children}
+    </SafeAreaView>
   )
 }
+
+const styles = StyleSheet.create({
+  screen : {
+    paddingTop : Platform.OS == 'android' ? StatusBar.height : 0
+  }
+});
