@@ -15,3 +15,4 @@ Start Mock Backend server by running json-server --watch db.json
 Start Angular server by running ng server
 
 To setup backend set up laravel project in normal way
+start by running composer create-project --prefer-dist api
